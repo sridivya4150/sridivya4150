@@ -1,0 +1,151 @@
+.navbar{
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+}
+.navbar-google{
+    margin:10px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+a:link {
+  color: black;
+  text-decoration:none;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: black;
+}
+.div-center{
+    display:flex;
+    justify-content: center;
+    font-family: Arial;
+    font-size:13px;
+}
+.rounded-search{
+    
+    display: flex;
+    z-index: 3;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 50px;
+    border: 1.5px solid #dfe1e5;
+    background: white;
+    box-shadow: none;
+    border-radius: 26px;
+    margin: 0 auto;
+    width:550px;
+    margin-top: 15px;
+    }
+
+.google-btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 8px;
+    color: #3c4043;
+    font-family: var(--qR8X0);
+    font-optical-sizing: none;
+    font-size: var(--hbmnje);
+    font-weight: 400;
+    margin:11px 6px;
+    margin-top: 30px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+.headings h1{
+    color: #474747;
+    font-family:"Arial";
+    font-size: 27px;
+    margin: 40px5px0px;
+    font-weight: 400;
+    line-height: 28px;
+    
+}
+.headings h2{
+    color: #474747;
+    font-family:"Arial";
+    font-size: 20px;
+    margin: 40px0px0px0px;
+    font-weight: 400;
+    line-height: 28px;
+    width:100%;
+}
+label{
+    display: inline-block;
+    width:130px;
+    font-family:"Arial";
+    color:#474747;
+    font-size:14px;
+    line-height:18px;
+    font-weight:400;
+   
+}
+.nav-text{
+    width:800px;
+    height:30px;
+    box-sizing: border-box;
+    margin:15px;
+    padding:20px;
+    border:1px solid black;
+    box-shadow:none;
+    
+}
+
+.advance-alignment{
+    margin-left:90px;
+    margin-top:40px;
+}
+div:has(.navbar) {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: space-between; 
+    align-items: center;
+    padding:10px 4px;
+    
+}
+.advance-google {
+    height: 30px; 
+    width: auto;
+    margin-left:90px;
+   
+}
+.subheading-align{
+    margin-top: 40px;
+}
+.btn-advs{
+    display:flex;
+    position:relative;
+    box-sizing: border-box;
+    min-height: 40px;
+    border: 1px solid #2b76f0;
+    background: #2b76f0;
+    box-shadow: none;
+    border-radius: 26px;
+    margin: 0 auto;
+    width:150px;
+    margin-top:15px;
+    color: white;
+    cursor: pointer;
+}
+.btn-advs:hover{
+    background-color: #1e5fc7;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15)
+}
+.rounded-search:focus{
+    outline:none;
+}
+.nav-text:focus{
+    outline:1.5px solid blue;
+}
